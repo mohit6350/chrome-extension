@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Hello Extension",
+  "name": "Data collector",
   "version": "1.0",
   "description": "A simple Chrome extension",
   "browser_action": {
     "default_popup": "popup.html"
   },
-  "permissions": ["tabs"]
+  "permissions": ["tabs","history"]
 }
